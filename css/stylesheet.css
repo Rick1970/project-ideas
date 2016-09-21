@@ -3,7 +3,7 @@ body {
     url("https://j.gifs.com/jR1XWl.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    bac
+
 }
 
 h1 {
@@ -18,14 +18,11 @@ h1 {
 
 .ghost-button-full-color {
   font-family: 'David Libre', serif;
-  display: inline-block;
   width: 500px;
   padding: 8px;
   color: #fff;
   background-color: transparent;
-  border: 2px solid #fff;
   text-align: center;
-  border-radius: 5px;
   outline: none;
   text-decoration: none;
   transition: color 0.3s ease-out,
@@ -34,41 +31,13 @@ h1 {
 }
 .ghost-button-full-color:hover,
 .ghost-button-full-color:active {
-  background-color: #9363c4;
-  border-color: #9363c4;
-  color: #fff;
-  transition: color 0.3s ease-in,
-              background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-.ghost-button-full-color, .btn {
-  margin-left: 1000px;
-}
 
-.btn {
-  -webkit-border-radius: 60;
-  -moz-border-radius: 60;
-  border-radius: 60px;
   text-shadow: 0px 0px 28px #ebdfeb;
   -webkit-box-shadow: 3px 0px 30px #300c30;
   -moz-box-shadow: 3px 0px 30px #300c30;
   box-shadow: 3px 0px 30px #300c30;
-  font-family: 'David Libre', serif;
-  color: #ebdaeb;
-  font-size: 60px;
-  background: #0a578a;
-  padding: 40px 40px 40px 40px;
-  border: solid #2194db 2px;
-  text-decoration: none;
-
-}
-
-.btn:hover {
-  background: #23516e;
-  background-image: -webkit-linear-gradient(top, #23516e, #3498db);
-  background-image: -moz-linear-gradient(top, #23516e, #3498db);
-  background-image: -ms-linear-gradient(top, #23516e, #3498db);
-  background-image: -o-linear-gradient(top, #23516e, #3498db);
-  background-image: linear-gradient(to bottom, #23516e, #3498db);
-  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease-in,
+              background-color 0.5s ease-in,
+              border-color 0.5s ease-in;
 }
