@@ -1,0 +1,45 @@
+body {
+  background-image:
+    url("https://j.gifs.com/jR1XWl.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    bac
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  font-family: 'David Libre', serif;
+  margin-top: 500px;
+  letter-spacing: .50em;
+
+}
+
+.ghost-button-full-color {
+  display: inline-block;
+  width: 500px;
+  padding: 8px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+.ghost-button-full-color:hover,
+.ghost-button-full-color:active {
+  background-color: #9363c4;
+  border-color: #9363c4;
+  color: #fff;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+.ghost-button-full-color {
+  margin-left: 1000px;
+}
